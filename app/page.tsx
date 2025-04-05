@@ -126,7 +126,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[{
               name: 'Basic',
-              price: '$5',
+              price: '$7',
               features: ['60 photos(credits)/month', 'Basic enhancement', 'Email support'],
               button: 'Get Started',
               className: 'bg-white'

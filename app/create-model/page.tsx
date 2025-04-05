@@ -4,6 +4,7 @@ import { useState, ChangeEvent } from "react";
 import { User, ImagePlus } from "lucide-react";
 import type { NextPage } from "next";
 import Logo from "@/public/logo";
+import Link from "next/link";
 
 interface ModelForm {
   description: string;
@@ -58,8 +59,8 @@ const CreateModelPage: NextPage = () => {
       {/* Navbar */}
       <nav className="bg-white shadow-sm py-4 px-8 flex justify-between items-center sticky top-0 z-50">
         <div className="flex items-center space-x-2">
-          <Logo />
-          <span className="text-2xl font-bold text-gray-900">photogenai</span>
+          <Link href="/"><Logo /></Link>
+          <Link href="/"><span className="text-2xl font-bold text-gray-900">photogenai</span></Link>
         </div>
         <div className="p-2 bg-purple-100 rounded-full">
           <User className="w-6 h-6 text-purple-600" />

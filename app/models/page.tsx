@@ -1,6 +1,7 @@
 "use client";
 
 import Logo from "@/public/logo";
+import Link from "next/link";
 
 const images = [
   {
@@ -236,8 +237,10 @@ export default function NatureGallery() {
     <div className="min-h-screen bg-white">
       <header className="bg-white shadow-sm py-4 px-8 flex justify-between items-center sticky top-0 z-50">
         <div className="flex items-center gap-2">
-          <Logo />
-          <h1 className="text-2xl font-bold text-black">photogenai</h1>
+          <Link href="/">
+            <Logo />
+          </Link>
+          <Link href="/"><h1 className="text-2xl font-bold text-black">photogenai</h1></Link>
         </div>
         <p className="text-gray-400 cursor-pointer">AI generated images</p>
       </header>

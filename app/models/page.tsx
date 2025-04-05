@@ -230,6 +230,7 @@ const images = [
   }
 ];
 
+
 export default function NatureGallery() {
   return (
     <div className="min-h-screen bg-white">
@@ -238,7 +239,7 @@ export default function NatureGallery() {
           <Logo />
           <h1 className="text-2xl font-bold text-black">photogenai</h1>
         </div>
-        <p className="text-gray-400 cursor-pointer">A collection of ai generated images</p>
+        <p className="text-gray-400 cursor-pointer">AI generated images</p>
       </header>
 
       <main className="container mx-auto px-6 pb-12">

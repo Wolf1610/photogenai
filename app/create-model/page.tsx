@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, ChangeEvent } from "react";
-import { Upload, User, ImagePlus } from "lucide-react";
+import { User, ImagePlus } from "lucide-react";
 import type { NextPage } from "next";
 import Logo from "@/public/logo";
 

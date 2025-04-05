@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import { Camera } from "lucide-react";
 import Logo from "@/public/logo";
 
 const images = [
@@ -252,6 +250,7 @@ export default function NatureGallery() {
             >
               <img
                 src={`${image.url}?auto=format&fit=crop&w=800&q=80`}
+                alt="img"
                 className={`w-full ${image.height} object-cover transition-transform duration-300 group-hover:scale-105`}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">

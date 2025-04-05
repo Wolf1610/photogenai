@@ -1,7 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import {
-  Camera,
   Wand2,
   Sparkles,
   Image as ImageIcon,
@@ -9,6 +7,7 @@ import {
   ChevronRight,
 } from 'lucide-react';
 import Logo from '@/public/logo';
+import Image from 'next/image';
 
 
 

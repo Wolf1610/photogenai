@@ -221,7 +221,7 @@ export default function Home() {
                   {plan.button}
                 </button></Link> */}
                 {plan.button === "Contact Sales" ? (
-                  <a href="tel:+917008465607">
+                  <Link href="/contact">
                     <button
                       className={`w-full py-3 cursor-pointer rounded-full transition-all duration-300 ${
                         plan.className.includes("text-white")
@@ -231,7 +231,7 @@ export default function Home() {
                     >
                       {plan.button}
                     </button>
-                  </a>
+                  </Link>
                 ) : (
                   <Link href="/create-model">
                     <button

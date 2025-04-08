@@ -79,7 +79,7 @@ const CreateModelPage: NextPage = () => {
                 </div>
                 <div>
                   <h1 className="text-2xl sm:text-3xl font-bold text-white">
-                    Create New Model
+                    Create Images
                   </h1>
                   <p className="text-purple-100 mt-1">
                     Fill in the details to create your model profile
@@ -133,7 +133,7 @@ const CreateModelPage: NextPage = () => {
 
               <div className="space-y-3">
                 <label className="block text-sm font-semibold text-gray-700">
-                  Model Description
+                  Image Description
                 </label>
                 <textarea
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl text-gray-700 shadow-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent"
@@ -210,7 +210,7 @@ const CreateModelPage: NextPage = () => {
                   type="submit"
                   className="w-full flex justify-center py-4 px-6 border border-transparent rounded-xl shadow-md text-base font-medium text-white bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transform transition-all duration-200 hover:scale-[1.02]"
                 >
-                  Create Model
+                  Create Images
                 </button>
               </div>
             </form>
@@ -219,7 +219,7 @@ const CreateModelPage: NextPage = () => {
 
         {/* Right Empty Section */}
         <div className="lg:w-1/2 w-full border-2 border-dashed border-gray-300 bg-gray-100 rounded-2xl flex items-center justify-center text-gray-400 text-sm">
-          Created models will appear here
+          Created Images will appear here
         </div>
       </div>
     </div>
